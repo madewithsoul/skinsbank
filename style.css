@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    background-image: url(images/background.JPG);
+}
+h4{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* sidebar */
+
+.mainsidebar{
+    background-color: rgb(19, 15, 15);
+
+    min-height: 100vh;
+    width: 17%;
+    float: left;
+    top: 0;
+    position: fixed;
+}
+.title{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+    letter-spacing: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+
+    height: 90px;
+    border-bottom: black solid 2px;
+}
+.title:hover{
+    color: white;;
+    background: linear-gradient(126deg, rgba(0,0,0,1) 23%, rgba(255,0,0,1) 100%);
+}
+.explore{
+    text-align: center;
+
+    height: 400px;
+
+    border-bottom: black solid 2px;
+}
+.wtypes{
+    list-style-type: none;
+    padding: 0;
+}
+.wtypes li, a{
+    padding-top: 20px;
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Dosis';
+}
+.wtypes a:hover{
+    color:rgb(255, 0, 0);
+}
+.maps{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    height: 100px;
+    margin-top: 10px;
+}
+.maps a:hover{
+    color:rgb(255, 0, 0);
+}
+
+/* pagetext */
+
+.pagetext{
+    width: 83%;
+    min-height: 100vh;
+    float: right;
+}
+.warning{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 400;
+
+}
+.instruction{
+    color: rgb(224, 18, 18);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    vertical-align: top;
+    line-height: 20px;
+}
+.text{
+    padding: 0px 10%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.img{
+    width: 70%;
+    justify-content: center;
+}
