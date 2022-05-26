@@ -1,1 +1,1 @@
-# skinsbank.github.io
+# skinsbank
